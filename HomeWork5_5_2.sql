@@ -32,7 +32,7 @@ ALTER TABLE [Position] ADD FOREIGN KEY ([PersonId]) REFERENCES [Person] ([Id])
 GO
 
 SET IDENTITY_INSERT [dbo].[Person] ON 
-INSERT [dbo].[Person] ([Id], [Name], [PhoneNumber]) VALUES (1, N'Alex', N'0663807502')
+INSERT [dbo].[Person] ([Id], [Name], [PhoneNumber]) VALUES (1, N'Alex', N'0663823432')
 INSERT [dbo].[Person] ([Id], [Name], [PhoneNumber]) VALUES (2, N'Edik', N'0682312340')
 SET IDENTITY_INSERT [dbo].[Person] OFF
 GO
